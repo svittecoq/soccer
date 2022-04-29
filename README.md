@@ -180,6 +180,6 @@ Content-Type: application/json;charset=UTF-8
 ```
 
 <!-- POSTMAN -->
-# Postman
+# POSTMAN
 
 Postman collection available for project.
