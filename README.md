@@ -7,6 +7,7 @@
   <ol>
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#rest-api">REST API</a></li>
+    <li><a href="#postman">POSTMAN</a></li>
   </ol>
 </details>
 
@@ -44,6 +45,7 @@ Password must have 8 characters or more with at least :
 1 numeric character
 1 special character !@#$%&
 ```
+
 <!-- REST API -->
 # REST API
 ## Sign Up
@@ -126,11 +128,12 @@ Content-Type: application/json;charset=UTF-8
 PUT /player/{playerId}
 Content-Type: application/json;charset=UTF-8
 {
-  playerId        : <playerId>,
-  playerFirstName : <playerFirstName>,
-  playerLastName  : <playerLastName>,
-  playerCountry   : <playerCountry>,
-  teamId          : <teamId>
+  playerId            : <playerId>,
+  playerFirstName     : <playerFirstName>,
+  playerLastName      : <playerLastName>,
+  playerCountry       : <playerCountry>,
+  playerTransferValue : <playerTransferValue>,
+  teamId              : <teamId>
 }
 ```
 ### Response
@@ -175,3 +178,8 @@ Content-Type: application/json;charset=UTF-8
  error     : "Error message if transfer error. Null if OK"
 }
 ```
+
+<!-- POSTMAN -->
+# Postman
+
+Postman collection available for project.
