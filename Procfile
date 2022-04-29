@@ -1,0 +1,1 @@
+web: java -cp "build/libs/*" -DdatabaseUri=$DATABASE_URL -DwebPort=$PORT soccer.SoccerMain
