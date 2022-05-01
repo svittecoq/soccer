@@ -23,7 +23,8 @@ public class UserCollection extends Collection<UserRecord> {
     public UserCollection(StoreService storeService) {
         super(COLLECTION, FieldArray, storeService);
 
-        // TODO UserCollection stores UserPassword in clear text.
+        // TODO UserCollection stores UserPassword in clear text for now.
+        // TODO But BCrypt should be used instead in a real environment
     }
 
     @Override
